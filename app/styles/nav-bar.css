@@ -1,0 +1,27 @@
+#nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 0px 20px;
+    height: var(--d-nav-height);
+
+    background-color: var(--c-nav-background);
+}
+
+#nav-logo {
+    height: 40px;
+    width: 40px;
+}
+
+#nav-links {
+    display: inherit;
+    align-items: baseline;
+    justify-content: flex-end;
+    column-gap: 10px;
+}
+
+#nav-elements, #nav-contact {
+    display: inherit;
+}
+

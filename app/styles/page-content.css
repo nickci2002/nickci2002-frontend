@@ -1,0 +1,16 @@
+main#page-content {
+    margin: 20px;
+}
+
+h1 {
+    font-size: var(--f-heading);
+}
+
+h2 {
+    font-size: var(--f-subheading);
+}
+
+p {
+    font-size: var(--f-base);
+    color: var(--c-text);
+}

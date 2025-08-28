@@ -1,0 +1,56 @@
+#landing-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 30px;
+}
+
+#landing-left-column {
+    display: inherit;
+    flex-direction: column;
+    justify-content: inherit;
+}
+
+
+/* || Anchor Wrapper Component */
+#anchor-wrapper{
+    display: inline-block;
+    position: relative;
+    width: 400px;
+    height: 200px;
+}
+
+#anchor-bg,
+#anchor-bg-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#anchor-bg { 
+    opacity: 1;
+    background-color: var(--c-nav-background);
+    clip-path: polygon(0 0%, 100% 50%, 100% 100%, 0% 100%);
+    overflow: hidden;
+    z-index: -2;
+}
+
+#anchor-bg-img {
+    background: var(--anchor-bg-url);
+    pointer-events: none;
+    z-index: -1;
+}
+
+#anchor-content {
+    margin: 20px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+#anchor-buttons {
+    display: inline-flex;
+    gap: 10px;
+    flex-direction: row;
+}
