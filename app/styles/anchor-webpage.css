@@ -1,0 +1,8 @@
+.anchor-webpage { 
+    gap: 20px;
+    text-decoration: none;
+    color: var(--c-text);
+    font-size: var(--f-text);
+    display: flex;
+    align-items: center;
+}
